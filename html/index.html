@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Texas Hold'em Poker</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+  <div id="game-table">
+    <h1>♠ Texas Hold'em Poker ♠</h1>
+    <div id="opponent-area">
+      <div id="opponent-cards" class="card-area"></div>
+      <div id="opponent-hand-info" class="hand-info"></div>
+    </div>
+
+    <div id="community-cards" class="card-area"></div>
+
+    <div id="player-area">
+      <div id="player-cards" class="card-area"></div>
+      <div id="player-hand-info" class="hand-info"></div>
+    </div>
+
+    <div id="controls">
+      <button onclick="playerAction('fold')">Fold</button>
+      <button onclick="playerAction('call')">Call</button>
+      <button onclick="playerAction('raise')">Raise</button>
+    </div>
+
+    <div id="status-bar">
+      <p id="pot-display">Pot: $0</p>
+      <p id="chips-display">Your Chips: $1000 | Bot Chips: $1000</p>
+    </div>
+
+    <button onclick="resetGame()">🔄 Reset</button>
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
