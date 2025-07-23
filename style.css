@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: green;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#game-table {
+  padding: 20px;
+}
+.card-area {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.hand-info {
+  font-weight: bold;
+  margin-top: 5px;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+.card {
+  width: 60px;
+  height: 90px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  line-height: 90px;
+}
